@@ -1,0 +1,20 @@
+.nav-header {
+    -fx-background-image: url("/tn/esprit/aerodash/rootlayout/navheader/navheaderbg.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    /*-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);*/
+}
+
+.nav-header-image {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+.nav-header-username {
+    -fx-text-fill: rgba(255, 255, 255, 0.9);
+    -fx-font-weight: bold;
+}
+
+.nav-header-role {
+    -fx-text-fill: rgba(255, 255, 255, 0.9);
+    -fx-font-weight: bold;
+}

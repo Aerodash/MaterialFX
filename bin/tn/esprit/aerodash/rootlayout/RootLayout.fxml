@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import org.kairos.layouts.DrawerLayout?>
+<?import tn.esprit.aerodash.rootlayout.toolbar.ButtonBarToolbar?>
+<?import org.kairos.layouts.RecyclerView?>
+<?import javafx.scene.control.*?>
+
+<?import tn.esprit.aerodash.rootlayout.navheader.NavHeader?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" prefWidth="800" prefHeight="600" style="-fx-background-color:#FAFAFA">
+    <DrawerLayout fx:id="drawer" AnchorPane.topAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.bottomAnchor="0"
+                  AnchorPane.leftAnchor="0">
+        <content>
+            <VBox>
+                <ButtonBarToolbar fx:id="toolbar">
+                </ButtonBarToolbar>
+                <!--<StackPane VBox.vgrow="ALWAYS" id="content">
+
+                </StackPane>-->
+                <BorderPane VBox.vgrow="ALWAYS" id="content">
+
+                </BorderPane>
+            </VBox>
+        </content>
+        <nav>
+            <VBox style="-fx-background-color: #D1C4E9">
+                <NavHeader/>
+                <RecyclerView fx:id="items">
+
+
+                </RecyclerView>
+            </VBox>
+        </nav>
+    </DrawerLayout>
+</AnchorPane>
+

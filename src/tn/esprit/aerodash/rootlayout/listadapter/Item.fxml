@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import org.kairos.components.MaterialButton?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<StackPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="48" alignment="CENTER_LEFT" styleClass="nav-item" stylesheets="@../style.css">
+	
+	<Label fx:id="number" styleClass="icon">
+		<StackPane.margin>
+			<Insets left="16"></Insets>
+		</StackPane.margin>
+	</Label>
+	<Label fx:id="title">
+		<StackPane.margin>
+			<Insets left="72"></Insets>
+		</StackPane.margin>
+	</Label>
+	 
+	 <MaterialButton fx:id="btn" mnemonicParsing="false" prefWidth="256.0" prefHeight="48.0" styleClass="flat"/>
+</StackPane>

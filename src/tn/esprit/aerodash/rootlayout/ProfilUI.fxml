@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox alignment="CENTER"  xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <ScrollPane fitToWidth="true" hbarPolicy="NEVER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" pannable="true" prefHeight="498.0" prefWidth="785.0" vbarPolicy="NEVER" VBox.vgrow="ALWAYS" >
+            <content>
+                <BorderPane prefHeight="448.0" prefWidth="730.0">
+                    <top>
+                        <StackPane fx:id="topPane" prefHeight="150.0" />
+                    </top>
+                    <center>
+                        <HBox fx:id="bottomPart" prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                            <children>
+                                <ScrollPane prefHeight="200.0" prefWidth="200.0">
+                                    <content>
+                                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0" />
+                                    </content>
+                                </ScrollPane>
+                                <ScrollPane prefHeight="200.0" prefWidth="200.0">
+                                    <content>
+                                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0" />
+                                    </content>
+                                </ScrollPane>
+                            </children>
+                        </HBox>
+                    </center>
+                </BorderPane>
+            </content>
+        </ScrollPane>
+    </children>
+</VBox>

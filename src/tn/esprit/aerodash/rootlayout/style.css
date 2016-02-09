@@ -1,0 +1,31 @@
+
+
+/*DEBUG
+.top-place {
+	-fx-background-color : red;
+}
+
+.home-title-container {
+	-fx-background-color : green ;
+}
+
+.home-icon, .title, .toolbar-button-bar {
+	-fx-background-color: blue;
+}
+* */
+
+.card {
+    -fx-background-color: rgb(255.0, 255.0, 255.0);
+    -fx-background-radius: 4.0;
+    -fx-effect: dropshadow(gaussian, rgba(0.0, 0.0, 0.0, 0.25), 6.0, 0.7, 0.0,
+    1.5);
+    -fx-padding: 16 16 16 16;
+}
+
+.toolbar {
+    -fx-background-color: #673AB7;
+}
+
+.drawer-nav {
+    -fx-background-color: red;
+}
